@@ -24,5 +24,11 @@ namespace MaximumGeneric
             double MaximumValue = array.Max();
             return MaximumValue;
         }
+        public String Max(String data1, String data2, String data3)
+        {
+            String[] array = { data1, data2, data3 };
+            String MaximumValue = array.Max();
+            return MaximumValue;
+        }
     }
 }
