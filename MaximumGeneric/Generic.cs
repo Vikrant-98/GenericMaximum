@@ -18,5 +18,11 @@ namespace MaximumGeneric
             int MaximumValue = array.Max();
             return MaximumValue;
         }
+        public double Max(double data1, double data2, double data3)
+        {
+            double[] array = { data1, data2, data3 };
+            double MaximumValue = array.Max();
+            return MaximumValue;
+        }
     }
 }
