@@ -6,12 +6,18 @@ namespace GenericTest
 {
     public class GenericTest
     {
+        GenericCheck obj = new GenericCheck();
         [Fact]
         public void GeneticIntTest()
         {
-            GenericCheck obj = new GenericCheck();
             int actual = (obj.Max(22, 33, 90));
-            Assert.Equal(88,actual);
+            Assert.Equal(90,actual);
+        }
+        [Fact]
+        public void GeneticFloatTest()
+        {
+            double actual = (obj.Max(2.6, 3.3, 8.2));
+            Assert.Equal(8.2, actual);
         }
     }
 }
