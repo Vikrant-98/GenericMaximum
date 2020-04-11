@@ -19,5 +19,11 @@ namespace GenericTest
             double actual = (obj.Max(2.6, 3.3, 8.2));
             Assert.Equal(8.2, actual);
         }
+        [Fact]
+        public void GeneticStringTest()
+        {
+            String actual = (obj.Max("26", "33", "82"));
+            Assert.Equal("82", actual);
+        }
     }
 }
