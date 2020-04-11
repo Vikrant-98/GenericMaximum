@@ -1,0 +1,7 @@
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\bin\Debug\MaximumGeneric.exe.config
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\bin\Debug\MaximumGeneric.exe
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\bin\Debug\MaximumGeneric.pdb
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\obj\Debug\MaximumGeneric.csprojAssemblyReference.cache
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\obj\Debug\MaximumGeneric.csproj.CoreCompileInputs.cache
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\obj\Debug\MaximumGeneric.exe
+C:\Users\The Daddy\source\repos\MaximumGeneric\MaximumGeneric\obj\Debug\MaximumGeneric.pdb
