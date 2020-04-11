@@ -9,26 +9,14 @@ namespace MaximumGeneric
         {
         }
     }
-
-    public class GenericCheck
-    {
-        public int Max(int data1, int data2, int data3)
+    
+        public class GenericCheck<AnyDataType>
         {
-            int[] array = { data1, data2, data3 };
-            int MaximumValue = array.Max();
-            return MaximumValue;
+            public AnyDataType Max(AnyDataType data1, AnyDataType data2, AnyDataType data3)
+            {
+                AnyDataType[] array = { data1, data2, data3 };
+                AnyDataType MaximumValue = array.Max();
+                return MaximumValue;
+            }
         }
-        public double Max(double data1, double data2, double data3)
-        {
-            double[] array = { data1, data2, data3 };
-            double MaximumValue = array.Max();
-            return MaximumValue;
-        }
-        public String Max(String data1, String data2, String data3)
-        {
-            String[] array = { data1, data2, data3 };
-            String MaximumValue = array.Max();
-            return MaximumValue;
-        }
-    }
 }
