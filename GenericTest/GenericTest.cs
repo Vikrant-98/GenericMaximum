@@ -1,14 +1,17 @@
 using System;
 using Xunit;
+using MaximumGeneric;
 
 namespace GenericTest
 {
     public class GenericTest
     {
         [Fact]
-        public void Test1()
+        public void GeneticIntTest()
         {
-
+            GenericCheck obj = new GenericCheck();
+            int actual = (obj.Max(22, 33, 88));
+            Assert.Equal(88,actual);
         }
     }
 }
