@@ -10,7 +10,7 @@ namespace MaximumGeneric
         }
     }
     /// <summary>
-    /// Generic Class createg to check Maximum of 3 Data Entry
+    /// Generic Class createg to check Maximum of many Data Entry
     /// </summary>
     /// <typeparam name="AnyDataType"></typeparam>
         public class GenericCheck<AnyDataType>
