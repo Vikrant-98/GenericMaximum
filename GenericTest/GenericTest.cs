@@ -37,22 +37,36 @@ namespace GenericTest
             Assert.Equal("82", actual);
         }
         /// <summary>
-        /// Check for maximum of more then 3 data
+        /// Check for maximum of more then 3 int data
         /// </summary>
         [Fact]
-        public void GeneticMaximumTest()
+        public void GeneticMaximumIntTest()
         {
             GenericCheck<int> obj1 = new GenericCheck<int>();
-            GenericCheck<double> obj2 = new GenericCheck<double>();
-            GenericCheck<String> obj3 = new GenericCheck<String>();
             int[] arr1 = { 88, 8, 56, 75 };
-            double[] arr2 = { 8.8, 1.2, 5.6, 7.5 };
-            String[] arr3 = { "88", "8", "56", "75" };
             int actual1 = (obj1.Max(arr1));
-            double actual2 = (obj2.Max(arr2));
-            String actual3 = (obj3.Max(arr3));
             Assert.Equal(88, actual1);
+        }
+        /// <summary>
+        /// Check for maximum of more then 3 Double data
+        /// </summary>
+        [Fact]
+        public void GeneticMaximumDoubleTest()
+        {
+            GenericCheck<double> obj2 = new GenericCheck<double>();
+            double[] arr2 = { 8.8, 1.2, 5.6, 7.5 };
+            double actual2 = (obj2.Max(arr2));
             Assert.Equal(8.8, actual2);
+        }
+        /// <summary>
+        /// Check for maximum of more then 3 String data
+        /// </summary>
+        [Fact]
+        public void GeneticMaximumStringTest()
+        {
+            GenericCheck<String> obj3 = new GenericCheck<String>();
+            String[] arr3 = { "88", "8", "56", "75" };
+            String actual3 = (obj3.Max(arr3));
             Assert.Equal("88", actual3);
         }
     }
