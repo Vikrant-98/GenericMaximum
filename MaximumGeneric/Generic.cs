@@ -15,9 +15,13 @@ namespace MaximumGeneric
     /// <typeparam name="AnyDataType"></typeparam>
         public class GenericCheck<AnyDataType>
         {
-            public AnyDataType Max(AnyDataType data1, AnyDataType data2, AnyDataType data3)
-            {
-                AnyDataType[] array = { data1, data2, data3 };
+            public AnyDataType Max(AnyDataType[] data)
+        {
+                AnyDataType[] array = new AnyDataType[data.Length];
+                for (int index = 0; index < data.Length ; index++ )
+                {
+                array[index] = data[index];
+                }
                 AnyDataType MaximumValue = array.Max();
                 return MaximumValue;
             }
