@@ -36,6 +36,9 @@ namespace GenericTest
             String actual = (obj.Max("26", "33", "82"));
             Assert.Equal("82", actual);
         }
+        /// <summary>
+        /// Check for maximum of more then 3 data
+        /// </summary>
         [Fact]
         public void GeneticMaximumTest()
         {
